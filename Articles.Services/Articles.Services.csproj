@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Articles.Services</RootNamespace>
+    <AssemblyName>Articles.Services</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Articles.Services.DAL.DTO\Articles.Services.DAL.DTO.csproj" />
+    <ProjectReference Include="..\Articles.Services.DAL\Articles.Services.DAL.csproj" />
+    <ProjectReference Include="..\Articles.Services.DTO\Articles.Services.DTO.csproj" />
+  </ItemGroup>
+
+</Project>

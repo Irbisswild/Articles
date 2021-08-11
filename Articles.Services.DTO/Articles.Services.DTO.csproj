@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Articles.Services.DTO</RootNamespace>
+    <AssemblyName>Articles.Services.DTO</AssemblyName>
+  </PropertyGroup>
+
+</Project>
